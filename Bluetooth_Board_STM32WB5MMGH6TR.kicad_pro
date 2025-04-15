@@ -124,7 +124,7 @@
         "min_clearance": 0.15,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.25,
         "min_microvia_drill": 0.15,
@@ -569,7 +569,7 @@
         "microvia_drill": 0.1,
         "name": "SMPS",
         "pcb_color": "rgb(255, 153, 0)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.15,
         "via_diameter": 0.7,
         "via_drill": 0.3,
@@ -662,7 +662,7 @@
       },
       {
         "netclass": "SMPS",
-        "pattern": "/SMPS*"
+        "pattern": "/*SMPS*"
       },
       {
         "netclass": "PWR5V",
