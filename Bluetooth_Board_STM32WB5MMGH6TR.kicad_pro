@@ -500,7 +500,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "pcb_color": "rgb(132, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -517,7 +517,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR3V3",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -534,7 +534,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR5V",
-        "pcb_color": "rgb(132, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(132, 0, 0)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -551,7 +551,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "pcb_color": "rgb(255, 255, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -568,7 +568,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SMPS",
-        "pcb_color": "rgb(255, 153, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -585,7 +585,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SWD",
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.15,
         "via_diameter": 0.7,
@@ -602,7 +602,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(0, 255, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.16736,
         "via_diameter": 0.7,
@@ -621,10 +621,6 @@
         "pattern": "/RF*"
       },
       {
-        "netclass": "USB",
-        "pattern": "/USB*"
-      },
-      {
         "netclass": "GND",
         "pattern": "GND"
       },
@@ -638,7 +634,7 @@
       },
       {
         "netclass": "PWR5V",
-        "pattern": "/VBUS"
+        "pattern": "*VBUS*"
       },
       {
         "netclass": "PWR5V",
@@ -803,6 +799,22 @@
     [
       "a4b2e555-3a2d-45a4-a098-f1ecce35f3b3",
       "Root"
+    ],
+    [
+      "e876f77f-5a73-4dbc-9312-d67cc690e8ff",
+      "STM32WB5MMGH6TR"
+    ],
+    [
+      "3263be18-959a-4de2-8f56-defe38acb69e",
+      "Power_Management"
+    ],
+    [
+      "5459c325-bddd-4403-945a-8175b3b7485c",
+      "Interfaces"
+    ],
+    [
+      "00e57fa5-4761-48b4-a7b8-7fcf1225308c",
+      "USB"
     ]
   ],
   "text_variables": {}
